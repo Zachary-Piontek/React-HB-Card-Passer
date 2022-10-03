@@ -16,7 +16,6 @@ function App() {
     playerThreeHand,
     setPlayerThreeHand,
     from,
-    setFrom,
     to,
     selectedCard,
     setSelectedCard
@@ -73,11 +72,6 @@ function App() {
         {selectedCard && (
           <ExecutePassButton
             passCard={passCard}
-            setFrom={setFrom}
-            from={from}
-            to={to}
-            selectedCard={selectedCard}
-            setSelectedCard={setSelectedCard}
           />
         )}
       </section>
